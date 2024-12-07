@@ -10,9 +10,15 @@ Currently, two official plugins are available:
 Add the github repository by the following commands.
 
 echo "# test" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/M-Nisul/[repository].git
+
 git push -u origin main
